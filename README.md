@@ -72,7 +72,7 @@ Grade-local on this race's own kit (btc-race-24h-20261123-0511, process
 driver) — **net PnL +$10.91 USDC**, 2 trades (1 round trip), win rate 1.0,
 max drawdown 0.93%, fees $0.81, L1 regrade reproduced — **passes the dev
 gate (> $0)**. Dev window: 1,440 bars, $58,957 → $61,102 (+3.64%).
-Result sha256 `0e7fb04496d8c99e8b57b9e8229712146ab329a5dd35085b99fd03ba946ba2cb`.
+Result sha256 `1cffd7932400bc9c5d464d05315ecf7c32b53381b139912a92a7dce817de923d` (fresh re-implementation, same logic; action log identical to the reference grade).
 The deep-washout alternative (33-window mean +$0.97) was simmed on this
 same window and made $0.00 with 0 trades, so v3 ships.
 
